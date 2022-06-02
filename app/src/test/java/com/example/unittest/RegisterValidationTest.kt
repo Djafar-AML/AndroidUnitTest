@@ -48,6 +48,8 @@ class RegisterValidationTest {
             "a123"
         )
 
+
+
         val isUserValid = registerValidation.isUserValid()
         assertThat(isUserValid).isFalse()
     }
