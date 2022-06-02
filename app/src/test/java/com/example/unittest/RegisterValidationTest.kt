@@ -30,7 +30,7 @@ class RegisterValidationTest {
     fun `valid username and correctly repeated password returns true` () {
 
         registerValidation.validateUser(
-            "JJ",
+            "JJeff",
             "a123",
             "a123"
         )
